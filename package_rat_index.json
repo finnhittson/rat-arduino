@@ -1,0 +1,60 @@
+{
+  "packages":
+  [
+    {
+      "name": "rat",
+      "maintainer": "pig",
+      "websiteURL": "NA",
+      "email" : "NA",
+      "platforms":
+      [
+        {
+          "name": "rat",
+          "architecture": "samd",
+          "version": "0.0.1",
+          "category": "Contributed",
+          "url": "https://github.com/finnhittson/rat-arduino/blob/main/rat-0.0.1.zip?raw=true",
+          "archiveFileName": "rat-0.0.1.zip",
+          "checksum": "SHA-256:2B34618CE50E5F733AC0202B39FF2C0883D68ED812CC355A46A0A878E7AAA1BA",
+          "size": "1705579",
+          "boards": [
+            {
+              "name": "rat"
+            }
+          ],
+          "toolsDependencies":
+          [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.8.0-48-gb176eee"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.10.0-arduino9"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.2.0"
+            }
+          ]
+        }
+      ],
+      "tools":
+      [
+      ]
+    }
+  ]
+}
