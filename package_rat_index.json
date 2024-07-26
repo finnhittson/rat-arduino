@@ -15,8 +15,8 @@
           "category": "Contributed",
           "url": "https://github.com/finnhittson/rat-arduino/blob/main/rat-0.0.1.zip?raw=true",
           "archiveFileName": "rat-0.0.1.zip",
-          "checksum": "SHA-256:2B34618CE50E5F733AC0202B39FF2C0883D68ED812CC355A46A0A878E7AAA1BA",
-          "size": "1705579",
+          "checksum": "SHA-256:A4E355E873D423622281FD342B9339C98B48E30989F815276208FE9255EF98FD",
+          "size": "1705582",
           "boards": [
             {
               "name": "rat"
