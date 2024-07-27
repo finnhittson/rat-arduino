@@ -1,7 +1,7 @@
 {
   "packages": [
     {
-		"websiteURL": "NA",
+		"websiteURL": "https://github.com/finnhittson/rat-arduino",
 		"tools": [
         {
           "name": "bossac",
@@ -443,8 +443,11 @@
 		{
 		"name": "rat",
 		"architecture": "samd",
-		"version": "0.0.1",
+		"version": "1.0.0",
 		"category": "Contributed",
+		"help": {
+            "online": "http://www.arduino.cc/en/Reference/HomePage"
+          },
 		"url": "https://github.com/finnhittson/rat-arduino/blob/main/rat-0.0.1.tar.bz2",
 		"archiveFileName": "rat-0.0.1.tar.bz2",
 		"checksum": "SHA-256:A1D0798EF47D89A1E0B48D7A48D1DA0CB8790B11142FB9E7149CDDA8D55F748E",
