@@ -6,7 +6,7 @@ menu.usbstack=USB Stack
 menu.debug=Debug
 
 # ---------------------------------------
-# rat (Prorgamming Port)
+# rat
 # ---------------------------------------
 rat.name=rat
 

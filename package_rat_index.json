@@ -1,7 +1,67 @@
 {
   "packages": [
     {
+		"name": "rat",
+		"maintainer": "Finn Hittson",
 		"websiteURL": "https://github.com/finnhittson/rat-arduino",
+		"email" : "finn2@stanford.edu",
+		"platforms": [
+		{
+		"name": "rat",
+		"architecture": "samd",
+		"version": "1.0.0",
+		"category": "Contributed",
+		"help": {
+            "online": "https://github.com/finnhittson/rat-arduino"
+          },
+		"url": "https://github.com/finnhittson/rat-arduino/raw/main/rat-0.0.1.tar.bz2",
+		"archiveFileName": "rat-0.0.1.tar.bz2",
+		"checksum": "SHA-256:473F16E2A49B2AC765A8C3A1B61E6D8891069C48129C35206CE5F7BA7A9C7069",
+		"size": "1153067",
+		"boards": [
+		{
+			"name": "rat"
+		}
+		],
+		"toolsDependencies": [
+            {
+              "packager": "adafruit",
+              "name": "arm-none-eabi-gcc",
+              "version": "9-2019q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.7.0-arduino3"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.8.0-48-gb176eee"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.10.0-arduino7"
+            },
+            {
+              "packager": "adafruit",
+              "name": "CMSIS",
+              "version": "5.4.0"
+            },
+            {
+              "packager": "adafruit",
+              "name": "CMSIS-Atmel",
+              "version": "1.2.2"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.2.1"
+            }
+          ]
+		}
+		],
 		"tools": [
         {
           "name": "bossac",
@@ -436,66 +496,6 @@
           "version": "1.0.0"
         }
       ],
-		"name": "rat",
-		"email" : "finn2@stanford.edu",
-		"maintainer": "pig",
-		"platforms": [
-		{
-		"name": "rat",
-		"architecture": "samd",
-		"version": "1.0.0",
-		"category": "Contributed",
-		"help": {
-            "online": "http://www.arduino.cc/en/Reference/HomePage"
-          },
-		"url": "https://github.com/finnhittson/rat-arduino/blob/main/rat-0.0.1.tar.bz2",
-		"archiveFileName": "rat-0.0.1.tar.bz2",
-		"checksum": "SHA-256:A1D0798EF47D89A1E0B48D7A48D1DA0CB8790B11142FB9E7149CDDA8D55F748E",
-		"size": "1152598",
-		"boards": [
-		{
-			"name": "rat"
-		}
-		],
-		"toolsDependencies": [
-            {
-              "packager": "adafruit",
-              "name": "arm-none-eabi-gcc",
-              "version": "9-2019q4"
-            },
-            {
-              "packager": "arduino",
-              "name": "bossac",
-              "version": "1.7.0-arduino3"
-            },
-            {
-              "packager": "arduino",
-              "name": "bossac",
-              "version": "1.8.0-48-gb176eee"
-            },
-            {
-              "packager": "arduino",
-              "name": "openocd",
-              "version": "0.10.0-arduino7"
-            },
-            {
-              "packager": "adafruit",
-              "name": "CMSIS",
-              "version": "5.4.0"
-            },
-            {
-              "packager": "adafruit",
-              "name": "CMSIS-Atmel",
-              "version": "1.2.2"
-            },
-            {
-              "packager": "arduino",
-              "name": "arduinoOTA",
-              "version": "1.2.1"
-            }
-          ]
-		}
-		]
     }
   ]
 }
