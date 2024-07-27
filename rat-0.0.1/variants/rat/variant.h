@@ -12,7 +12,11 @@
 #define VARIANT_MAINOSC		(32768ul)
 
 /** Master clock frequency */
-#define VARIANT_MCK			  (48000000ul)
+#define VARIANT_MCK        (F_CPU)
+
+#define VARIANT_GCLK0_FREQ (F_CPU)
+#define VARIANT_GCLK1_FREQ (48000000UL)
+#define VARIANT_GCLK2_FREQ (100000000UL)
 
 /*----------------------------------------------------------------------------
  *        Headers
@@ -87,6 +91,10 @@ static const uint8_t SCK  = PIN_SPI_SCK ;
 #define PIN_WIRE_SCL         (11u)
 #define PERIPH_WIRE          sercom4
 #define WIRE_IT_HANDLER      SERCOM4_Handler
+#define WIRE_IT_HANDLER_0    SERCOM4_0_Handler
+#define WIRE_IT_HANDLER_1    SERCOM4_1_Handler
+#define WIRE_IT_HANDLER_2    SERCOM4_2_Handler
+#define WIRE_IT_HANDLER_3    SERCOM4_3_Handler
 
 static const uint8_t SDA = PIN_WIRE_SDA;
 static const uint8_t SCL = PIN_WIRE_SCL;
@@ -119,8 +127,8 @@ extern SERCOM sercom3;
 extern SERCOM sercom4;
 extern SERCOM sercom5;
 
-extern Uart Serial;
-extern Uart Serial1;
+// extern Uart Serial;
+// extern Uart Serial1;
 
 #endif
 
